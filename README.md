@@ -3,14 +3,14 @@ meta-bitmainer
 
 OpenEmbedded / Ångström meta layer for bitminer Miner
 
-Setup instructoins
+Setup instructions
 ------------------
 
 To build a bitmainer miner firmware, first prepare a build machine as per OpenEmbedded Required software instructions at http://www.openembedded.org/wiki/Getting_started
 
 When machine is prepared proceed to prepare the bitmainer firmware build by running
 
-    git clone git@github.com:bitmaintech/setup-A8.git
+    git clone https://github.com/jeffpcyo/setup-A8
     cd setup-A8
     MACHINE=beaglebone ./oebb.sh config beaglebone
 
